@@ -14,6 +14,7 @@ const bodyOptions = {
   demand: true,
   alias: 'b'
 };
+
 const argv = yargs
   .command('add', 'Add a new note', {
     title: titleOptions,
